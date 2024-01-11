@@ -1,13 +1,17 @@
-#add image
 from PIL import Image
 
-img =Image.open("nice_or_mean.jpg")
-img.show()
 
 def start(nice=0, mean=0, name=""):
     #get user's name
+    image()
     name = describe_game(name)
     nice, mean, name = nice_mean(nice, mean, name)
+    
+#add image
+def image():
+    img =Image.open("nice_or_mean.jpg")
+    img.show()
+#    
 
 def describe_game(name):
     if name != "":
@@ -56,6 +60,10 @@ def score(nice, mean, name):
 def win(nice, mean, name):
     print(f"\nNice job {name}, you win! \nEveryone loves yopu and you've \nmade lots of friends along the way!")
     again(nice, mean, name)
+
+def lose(nice, mean, name):
+    print(f"\nAhhhh too bad, game over!\n{name}, you live in a dirty beat-up \nvan by the river, wretched and alone.")
+    again(nice,mean, name)
 
 def again(nice, mean, name):
     stop = True
