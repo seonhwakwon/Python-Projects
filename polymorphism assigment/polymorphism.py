@@ -42,6 +42,7 @@ class Women(Person):
 class Men(Person):
     #initialize variable
     def __init__(self, chest_size, waist_size):
+      #accessing parents class variable
       super().__init__(chest_size, waist_size)
       self.pants_size = 0
       self.tshirt_size = 0
@@ -68,11 +69,9 @@ class Men(Person):
           self.pants_size = 'No size in our brand'
       print(f"\nYour(Men) size\n----------------\nT-shirts size: {self.tshirt_size}\nPants size: {self.pants_size}")
 
-#making the new instance and invoke the method "Dress" in woman and men  
+#making the new instance and invoke the method "Dress" in woman and men class
 Person_women = Women(83, 25)
 Person_women.Dress()
- 
-
 Person_men= Men(105, 36)
 Person_men.Dress()  
 
