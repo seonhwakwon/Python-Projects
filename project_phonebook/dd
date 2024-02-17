@@ -1,0 +1,4 @@
+from datetime import *
+
+after_23h = timedelta(hours=23)
+print(after_23h)
