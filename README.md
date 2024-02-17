@@ -3,7 +3,7 @@
 These are python projects using tkinter, sqlite3 or Django.
 
 ## Projects
-* [Phonebook] (https://github.com/seonhwakwon/Python-Projects/tree/main/project_phonebook)
+* [Phonebook](https://github.com/seonhwakwon/Python-Projects/tree/main/project_phonebook)
 * [Check files Gui](https://github.com/seonhwakwon/Python-Projects/tree/main/File%20Transfer%20Assignment)
 * [Django Checkbook](https://github.com/seonhwakwon/Python-Projects/tree/main/Django_checkbook_Project)
 
