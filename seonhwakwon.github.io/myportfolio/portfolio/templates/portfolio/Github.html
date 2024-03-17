@@ -1,0 +1,28 @@
+{% extends 'portfolio/base.html' %}
+{% load static %}
+
+{% block title %}My Portfolio:About{% endblock %}
+{% block content %}
+ <div class="Row" id="GitHub">
+     <!--Left column-->
+     <div class="Column_2">
+        <a href="https://github.com/seonhwakwon" target="_blank"><img src="{% static '/images/GitHub.png' %}" alt="GitHub Logo"></a>
+     </div>
+     <!--Right column-->
+     <div class="Column_1">
+        <h1>GitHub</h1>
+        <p>You can view my coding projects on my GitHub profile here:</p>
+        <p class="center">
+            <a href="https://github.com/seonhwakwon" target="_blank">Seonhwa's Github</a>
+        </p>
+        <table class="table_center">
+            <tr><td><a href="https://github.com/seonhwakwon/JavaScript-Projects/tree/main/Pizza_Project" target="_blank">  &#183;Pizza Menu</a></td></tr>
+            <tr><td><a href="https://github.com/seonhwakwon/JavaScript-Projects/tree/main/TicTacToe" target="_blank">  &#183;Tic-Tac-Toe game</a></td></tr>
+            <tr><td><a href="https://github.com/seonhwakwon/JavaScript-Projects/tree/main/calculator" target="_blank">  &#183;Calculator</a></td></tr>
+            <tr><td><a href="https://github.com/seonhwakwon/HTML-and-CSS-Projects/tree/main/Movie_Theater%20site" target="_blank">  &#183;Movie_Theater</a></td></tr>
+            <tr><td><a href="https://github.com/seonhwakwon/HTML-and-CSS-Projects/tree/main/Effecting-images-with-CSS" target="_blank">  &#183;Effecting-images</a></td></tr>
+        </table>
+     </div>
+ </div>
+{% endblock %}
+
