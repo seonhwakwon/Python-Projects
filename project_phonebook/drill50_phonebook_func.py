@@ -1,15 +1,3 @@
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
-#
-# Python Ver:   3.5.1
-#
-# Author:       Daniel A. Christie
-#
-# Purpose:      Phonebook Demo. Demonstrating OOP, Tkinter GUI module,
-#               using Tkinter Parent and Child relationships.
-#
-# Tested OS:  This code was written and tested to work with Windows 10.
-
 import os
 from tkinter import *
 import tkinter as tk
