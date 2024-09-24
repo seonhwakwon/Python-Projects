@@ -14,7 +14,7 @@ These are python projects using tkinter, sqlite3 or Django.
   This project allows the user to choose transfer all.txt files from one chosen directory to another. All files that are moved will be saved in a database.
 
 ### Django checkbook
-  This project is building an application for keeping track of various bank accounts using Django. It can create the account, showing the saved account in database, add a new transaction and showing the list of transaction including data, type, description , amount and balance of transactions.
+  This project is building an application for keeping track of various bank accounts using Django. It can create the account, showing the saved account in database, add a new transaction and showing the list of transactions including data, type, description , amount and balance of transactions.
 
 
 
